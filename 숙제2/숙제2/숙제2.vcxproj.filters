@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\village">
+      <UniqueIdentifier>{ea007e20-3ee4-420a-954f-d8b6c948bca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Roller">
+      <UniqueIdentifier>{91f7a4d2-0cf1-4359-a7c4-0da4f3cdad86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Skybox">
+      <UniqueIdentifier>{0e28b1ce-a06b-4180-aa2b-a4e79fe5ad99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Weather">
+      <UniqueIdentifier>{e6fd47ed-4e5a-4b04-b532-00e915dfabbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Fireplay">
+      <UniqueIdentifier>{f50a802e-dd94-45e0-8471-d3f00cb1a61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OutSkybox">
+      <UniqueIdentifier>{c43c59bb-5415-4e2f-a94d-8eba4eaf8e21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Homework2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Village.cpp">
+      <Filter>소스 파일\village</Filter>
+    </ClCompile>
+    <ClCompile Include="Roller.cpp">
+      <Filter>소스 파일\Roller</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>소스 파일\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Weather.cpp">
+      <Filter>소스 파일\Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="OutSkybox.cpp">
+      <Filter>소스 파일\OutSkybox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Village.h">
+      <Filter>소스 파일\village</Filter>
+    </ClInclude>
+    <ClInclude Include="Roller.h">
+      <Filter>소스 파일\Roller</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>소스 파일\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Weather.h">
+      <Filter>소스 파일\Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireplay.h">
+      <Filter>소스 파일\Fireplay</Filter>
+    </ClInclude>
+    <ClInclude Include="OutSkybox.h">
+      <Filter>소스 파일\OutSkybox</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
